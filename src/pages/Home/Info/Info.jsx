@@ -5,7 +5,7 @@ import safe from '../../../assets/safe-delivery.png'
 
 const Info = () => {
     return (
-    <div className='mt-10 bg-gray-100 py-10'>
+    <div className='mt-10 w-11/12 mx-auto bg-gray-100 py-10'>
   
   <div className='flex flex-col md:flex-row gap-8 items-center bg-white p-6 rounded-xl shadow-lg mb-10'>
     
@@ -23,7 +23,7 @@ const Info = () => {
     </div>
   </div>
 
-  
+
   <div className='flex flex-col md:flex-row gap-8 items-center bg-white p-6 rounded-xl shadow-lg mb-10'>
     
     <img src={safe} alt="Tracking" className='w-40 h-40 object-cover rounded-xl' />
